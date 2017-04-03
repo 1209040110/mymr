@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
-
+//倒排索引
 public class InvertedIndex {
 	public static class MyMapper extends Mapper<Object,Text,Text,Text>{
 		public void map(Object key,Text value,Context context) throws IOException, InterruptedException{
